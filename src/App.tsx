@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <main className="w-screen h-screen flex flex-row bg-slate-700 text-white font-montserrat">
         <Sidebar />
-        <div className="pt-10 px-5 w-full flex flex-col">
+        <div className="pt-10 px-5 w-screen overflow-x-auto flex flex-col">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/skills" element={<Skills />} />

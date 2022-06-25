@@ -25,11 +25,11 @@ function Skill(props: SkillProps) {
 export default function Skills() {
 
     return (
-        <div className="animate-fadein">
+        <div className="animate-fadein overflow-y-auto pb-5">
             <h1 className="text-2xl">Habilidades</h1>
             <p className="mt-5">O quanto me sinto à vontade em relação a:</p>
 
-            <div className="flex flex-wrap gap-x-16 gap-y-16 w-full">
+            <div className="flex flex-wrap gap-x-16 w-fit">
 
                 <div className="mt-5">
                     <h2 className="text-lg ">Front-End:</h2>
