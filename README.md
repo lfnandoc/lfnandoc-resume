@@ -6,3 +6,5 @@ Stack:
 * ReactJS
 * Typescript
 * Tailwind CSS
+
+Está publicado via Firebase no seguinte endereço: https://lfnandoc.net/
