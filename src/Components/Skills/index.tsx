@@ -29,7 +29,7 @@ export default function Skills() {
             <h1 className="text-2xl">Habilidades</h1>
             <p className="mt-5">O quanto me sinto à vontade em relação a:</p>
 
-            <div className="flex flex-wrap gap-x-8 gap-y-8 w-full">    
+            <div className="flex flex-wrap gap-x-8 gap-y-3 w-full">    
 
                 <div className="mt-5 w-[17rem]">
                     <h2 className="text-lg ">Front-End:</h2>
