@@ -1,6 +1,6 @@
 # Lfnandoc.net
 
-Web app feita para servir como página pessoal, e servirá como um currículo digital.
+Web app feita para servir como página pessoal, uma espécie de currículo digital.
 
 Stack:
 * ReactJS
