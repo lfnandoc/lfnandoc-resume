@@ -32,7 +32,7 @@ export default function Footer() {
 
 
     return (
-        <div className="flex flex-row gap-x-2 mt-auto mb-4 border-t border-white pt-3">
+        <div className="flex flex-row gap-x-2 pb-2 mb-2 border-t-0 border-b md:mt-auto md:mb-4 md:border-t md:border-b-0 border-white md:pt-3">
             <FooterButton icon={brands("github")} label="GitHub" onClick={() => openExternalLink("http://github.com/lfnandoc")} />
             <FooterButton icon={brands("linkedin")} label="LinkedIn" onClick={() => openExternalLink("https://linkedin.com/in/lfnandoc/")} /> 
             <FooterButton icon={solid("envelope")} label="E-Mail" onClick={() => mailTo("contato@lfnandoc.net")} />

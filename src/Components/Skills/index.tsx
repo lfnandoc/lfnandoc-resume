@@ -29,9 +29,9 @@ export default function Skills() {
             <h1 className="text-2xl">Habilidades</h1>
             <p className="mt-5">O quanto me sinto à vontade em relação a:</p>
 
-            <div className="flex flex-wrap gap-x-16 w-fit">
+            <div className="flex flex-wrap gap-x-8 gap-y-8 w-full">    
 
-                <div className="mt-5">
+                <div className="mt-5 w-[17rem]">
                     <h2 className="text-lg ">Front-End:</h2>
                     <Skill icon={solid("code")} label="HTML" percent={80} />
                     <Skill icon={brands("css3")} label="CSS" percent={60} />
@@ -41,7 +41,7 @@ export default function Skills() {
                     <Skill icon={brands("react")} label="React" percent={70} />
                 </div>
 
-                <div className="mt-5">
+                <div className="mt-5 w-[17rem]">
                     <h2 className="text-lg ">Back-End:</h2>
                     <Skill icon={solid("code")} label="C#" percent={95} />
                     <Skill icon={brands("microsoft")} label=".NET Core" percent={95} />
@@ -52,14 +52,16 @@ export default function Skills() {
                     <Skill icon={brands("java")} label="Java" percent={30} />
                 </div>
 
-                <div className="mt-5">
+                <div className="mt-5 w-[17rem]">
                     <h2 className="text-lg ">Outros:</h2>
                     <Skill icon={brands("git-alt")} label="Git" percent={90} />
                     <Skill icon={solid("flask")} label="Testes Unitários" percent={80} />
                     <Skill icon={brands("microsoft")} label="Azure Cloud" percent={70} />
                     <Skill icon={brands("aws")} label="AWS" percent={50} />
                     <Skill icon={solid("code")} label="Código limpo" percent={100} />
-                    <h2 className="text-lg mt-3 ">Pessoais:</h2>
+                </div>
+
+                <div className="mt-5 w-[17rem]">
                     <Skill icon={solid("comment")} label="Inglês" percent={100} />
                     <Skill icon={solid("envelopes-bulk")} label="Adaptabilidade" percent={100} />
                     <Skill icon={solid("book")} label="Vontade de aprender" percent={100} />

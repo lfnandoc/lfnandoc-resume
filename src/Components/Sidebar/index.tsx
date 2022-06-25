@@ -37,7 +37,7 @@ function SidebarButton(props: SidebarButtonProps) {
                 <FontAwesomeIcon icon={props.icon} className="m-auto" />
                 {props.ping && <div onClick={props.onClick} className="top-0 absolute rounded-full bg-white h-8 w-8 -z-20 animate-ping"/>}
             </div>          
-            <p className="absolute left-[50%] top-1.5 text-white text-sm m-auto transition-all ease-linear opacity-0 betterhover:peer-hover:opacity-100  betterhover:peer-hover:translate-x-6 -z-50">{props.label}</p>
+            <p className="absolute left-[50%] top-1.5 text-white text-sm m-auto transition-all ease-linear opacity-0 betterhover:peer-hover:opacity-100  betterhover:peer-hover:translate-x-[1.25rem] -z-50">{props.label}</p>
         </div>
     );    
 }
@@ -48,6 +48,7 @@ export default function Sidebar() {
 
     return (
         <div className="sticky w-28 md:w-48 h-full">
+            <div className="scale-75 origin-top md:scale-100">
             <div className="absolute bg-white w-[6px] h-96 top-0 -z-50 left-[50%] -ml-[3px]" />
             <div className="flex flex-col">
                 <div className="mt-10 bg-white rounded-full w-24 h-24 m-auto flex">
@@ -60,6 +61,7 @@ export default function Sidebar() {
                     <SidebarButton icon={solid("graduation-cap")} label={strings.education} onClick={() => navigate("/education")} />
                     <SidebarButton icon={solid("code")} label={strings.about} onClick={() => navigate("/about")} />
                 </div>
+            </div>
             </div>
 
         </div>
