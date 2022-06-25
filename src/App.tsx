@@ -3,6 +3,7 @@ import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Sidebar from './Components/Sidebar';
 import Skills from './Components/Skills';
+import UnderConstruction from './Components/UnderConstruction';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/skills" element={<Skills />} />
+            <Route path ="/*" element={<UnderConstruction />} />
           </Routes>
           <Footer />
         </div>

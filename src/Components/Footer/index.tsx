@@ -35,8 +35,8 @@ export default function Footer() {
         <div className="flex flex-row gap-x-2 mt-auto mb-4 border-t border-white pt-3">
             <FooterButton icon={brands("github")} label="GitHub" onClick={() => openExternalLink("http://github.com/lfnandoc")} />
             <FooterButton icon={brands("linkedin")} label="LinkedIn" onClick={() => openExternalLink("https://linkedin.com/in/lfnandoc/")} /> 
-            <FooterButton icon={solid("envelope")} label="E-Maiç" onClick={() => mailTo("contato@lfnandoc.net")} />
-            <p>contato@lfnandoc.net</p>
+            <FooterButton icon={solid("envelope")} label="E-Mail" onClick={() => mailTo("contato@lfnandoc.net")} />
+            <p className="text-xs md:text-base my-auto">contato@lfnandoc.net</p>
         </div>
     )
 }
