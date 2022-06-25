@@ -16,11 +16,21 @@ module.exports = {
         "100%": {
           opacity: 1,
         },
+      },
+      grow: {
+        "0%": {
+          width: "0%",
+        }
       }
+
     },
       animation: {
         fadein: "fadein 1s ease-in-out",
-      }    
+        grow: "grow 1s ease-in-out",
+      },
+      screens: {
+        betterhover: {'raw': '(hover: hover)'},
+    }
   }
 },
   plugins: [],
