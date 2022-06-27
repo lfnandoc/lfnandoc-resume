@@ -1,4 +1,5 @@
 import TokCommentSite from "../../Images/tokcomment.png";
+import Nanacita from "../../Images/nanacita.png";
 
 interface ProjectProps {
   name: string;
@@ -25,7 +26,8 @@ function Project(props: ProjectProps) {
 export default function Projects() {
   return (
     <div className="animate-fadein pb-5">
-      <h1 className="text-2xl">Projetos</h1>
+      <h1 className="text-2xl mb-2">Projetos</h1>
+      <p>Além destes projetos, confira meu perfil no <a href="https://github.com/lfnandoc"className="font-bold" target="_blank" rel="noreferrer">GitHub!</a></p>
       <div className="flex-col">
         <Project
           name="TOKComment"
@@ -35,10 +37,24 @@ export default function Projects() {
           <li>Freelance desenvolvido para uma companhia de marketing americana</li>
           <li>É um gerador de comentários para vídeos de TikTok, gerando uma imagem que pode ser baixada</li>
           <li>Deenvolvido em HTML, Javascript e TailwindCSS</li>
+
           <div className="overflow-y-auto w-[50%] h-64 my-2 mx-auto">
             <img src={TokCommentSite} alt="TOKComment" />
           </div>
         </Project>
+
+        <Project
+          name="Nanacita Generator"
+          url="http://nanacita.lfnandoc.net/"
+          date="Junho/2022"
+        >
+          <li>Gerador de meme baseado em uma imagem da cantora Naiara Azevedo</li>  
+          <li>Faz uso da API do Spotify para obter a arte do álbum a ser aplicada no disco</li>
+          <li>Desenvolvido em ReactJS e Tailwind CSS</li>
+          <div className="overflow-y-auto w-[50%] h-64 my-2 mx-auto">
+            <img src={Nanacita} alt="Nanacita Generator" />
+          </div>
+        </Project>        
       </div>
     </div>
   );
