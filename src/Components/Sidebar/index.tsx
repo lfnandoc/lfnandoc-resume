@@ -10,7 +10,7 @@ let strings = new LocalizedStrings({
    skills: "Habilidades",
     experience: "Experiência",
     education: "Educação",
-    about: "Sobre",
+    projects: "Projetos",
     contact: "Contato",
 
  },
@@ -19,7 +19,7 @@ let strings = new LocalizedStrings({
     skills: "Skills",
     experience: "Experience",
     education: "Education",
-    about: "About",
+    projects: "Projects",
     contact: "Contact",
 }});
 
@@ -59,7 +59,7 @@ export default function Sidebar() {
                     <SidebarButton icon={solid("lightbulb")} ping={isHome} label={strings.skills} onClick={() => navigate("/skills")} />
                     <SidebarButton icon={solid("suitcase")} label={strings.experience} onClick={() => navigate("/experience")} />
                     <SidebarButton icon={solid("graduation-cap")} label={strings.education} onClick={() => navigate("/education")} />
-                    <SidebarButton icon={solid("code")} label={strings.about} onClick={() => navigate("/about")} />
+                    <SidebarButton icon={solid("code")} label={strings.projects} onClick={() => navigate("/projects")} />
                 </div>
             </div>
             </div>
