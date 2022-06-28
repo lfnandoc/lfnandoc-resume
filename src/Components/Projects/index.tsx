@@ -25,7 +25,7 @@ function Project(props: ProjectProps) {
 
 export default function Projects() {
   return (
-    <div className="animate-fadein pb-5 grow">
+    <div className="animate-fadein pb-5 grow overflow-y-auto">
       <h1 className="text-2xl mb-2">Projetos</h1>
       <p>Além destes projetos, confira meu perfil no <a href="https://github.com/lfnandoc"className="font-bold" target="_blank" rel="noreferrer">GitHub!</a></p>
       <div className="flex-col">

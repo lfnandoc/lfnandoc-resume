@@ -24,7 +24,7 @@ function EducationSection(props: EducationSectionProps) {
 
 export default function Education() {
   return (
-    <div className="animate-fadein pb-5 grow">
+    <div className="animate-fadein pb-5 grow overflow-y-auto">
       <h1 className="text-2xl">Educação</h1>
       <div className="flex-col">
       <EducationSection

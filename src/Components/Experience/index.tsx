@@ -35,7 +35,7 @@ function Company(props: CompanyProps) {
 
 export default function Experience() {
   return (
-    <div className="animate-fadein pb-5">
+    <div className="animate-fadein pb-5 overflow-y-auto">
       <h1 className="text-2xl">Experiência Profissional</h1>
       <div className="flex-col">
       <Company
