@@ -18,7 +18,7 @@ interface CompanyProps {
 
 function Company(props: CompanyProps) {
   return (
-    <div className={`${props.className} py-6`}>
+    <div className={`${props.className} py-6 grow`}>
       <a href={props.url} target="_blank" rel="noreferrer">
         <h1 className="text-3xl">{props.name}</h1>
       </a>

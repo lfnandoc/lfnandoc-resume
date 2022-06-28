@@ -11,7 +11,7 @@ import UnderConstruction from './Components/UnderConstruction';
 function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <main className="w-screen h-screen flex flex-row bg-slate-700 text-white font-montserrat">
+      <main className="w-screen h-screen flex flex-row bg-slate-700 text-white font-montserrat">        
         <Sidebar />
         <div className="pt-10 px-3 md:px-8 w-screen overflow-x-auto flex flex-col-reverse md:flex-col">
           <Routes>
@@ -24,7 +24,6 @@ function App() {
           </Routes>
           <Footer />
         </div>
-
       </main>
     </BrowserRouter>
   );
