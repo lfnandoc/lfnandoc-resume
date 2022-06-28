@@ -36,7 +36,7 @@ export default function Projects() {
         >
           <li>Freelance desenvolvido para uma companhia de marketing americana</li>
           <li>É um gerador de comentários para vídeos de TikTok, gerando uma imagem que pode ser baixada</li>
-          <li>Deenvolvido em HTML, Javascript e TailwindCSS</li>
+          <li>Desenvolvido em HTML, Javascript e TailwindCSS</li>
 
           <div className="overflow-y-auto w-[50%] h-64 my-2 mx-auto">
             <img src={TokCommentSite} alt="TOKComment" />
