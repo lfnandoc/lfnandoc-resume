@@ -1,5 +1,6 @@
 import TokCommentSite from "../../Images/tokcomment.png";
 import Nanacita from "../../Images/nanacita.png";
+import Nandobot from "../../Images/nandobot.png";
 
 interface ProjectProps {
   name: string;
@@ -42,6 +43,20 @@ export default function Projects() {
             <img src={TokCommentSite} alt="TOKComment" />
           </div>
         </Project>
+
+        <Project
+          name="Nandobot Go"
+          url="http://github.com/lfnandoc/nandobot-go"
+          date="Julho/2022"
+        >
+          <li>Webserver que periodicamente obtém dados de partidas de League of Legends utilizando a API da Riot Games</li>  
+          <li>Quando detecta novas partidas, formula um card que é enviado a um canal do Discord utilizando Webhooks</li>
+          <li>Tem uma simples API para adicionar jogadores e obter dados da últilma partida</li>
+          <li>Desenvolvido em Golang</li>
+          <div className="overflow-y-auto w-[50%] h-64 my-2 mx-auto">
+            <img src={Nandobot} alt="Nandobot Go" />
+          </div>
+        </Project>   
 
         <Project
           name="Nanacita Generator"
