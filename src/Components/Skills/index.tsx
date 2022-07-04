@@ -49,7 +49,9 @@ export default function Skills() {
                     <Skill icon={brands("node")} label="Node.js" percent={50} />
                     <Skill icon={solid("database")} label="MySQL" percent={90} />
                     <Skill icon={solid("database")} label="SQL Server" percent={80} />
+                    <Skill icon={brands("golang")} label="Golang" percent={50} />
                     <Skill icon={brands("java")} label="Java" percent={30} />
+                    
                 </div>
 
                 <div className="mt-5 w-[17rem]">
