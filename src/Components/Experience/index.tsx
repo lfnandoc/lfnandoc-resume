@@ -39,10 +39,20 @@ export default function Experience() {
       <h1 className="text-2xl">Experiência Profissional</h1>
       <div className="flex-col">
       <Company
+          name="Bionexo"
+          url="https://bionexo.com/"
+          startDate="Agosto/2022"
+          endDate="atualmente"
+          position="Desenvolvedor Pleno"
+          className="border-b border-white"
+        >
+            <li>Squad Motor de Integração</li>
+        </Company>
+      <Company
           name="Playmove"
           url="https://playtable.com.br/"
           startDate="Maio/2022"
-          endDate="atualmente"
+          endDate="Julho/2022"
           position="Desenvolvedor Fullstack"
           className="border-b border-white"
         >
