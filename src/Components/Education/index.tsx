@@ -30,7 +30,7 @@ export default function Education() {
       <EducationSection
           name="Universidade Estácio de Sá"
           startDate="Abril/2021"
-          endDate="atualmente"
+          endDate="Outubro/2023"
           position="Tecnólogo em Análise e Desenvolvimento de Sistemas"
           className="border-b border-white"
         />     
