@@ -43,10 +43,11 @@ export default function Experience() {
           url="https://bionexo.com/"
           startDate="Agosto/2022"
           endDate="atualmente"
-          position="Desenvolvedor Pleno"
+          position="Desenvolvedor de Software Sênior"
           className="border-b border-white"
         >
             <li>Squad Motor de Integração</li>
+            <li>Foi Desenvolvedor Pleno até Fevereiro/2024</li>
         </Company>
       <Company
           name="Playmove"
